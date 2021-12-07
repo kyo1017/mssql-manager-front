@@ -1,0 +1,97 @@
+@import '../../node_modules/antd/dist/antd.css';
+
+body {
+    background-color: #efefef;
+}
+
+.App {
+    padding: 0 42px;
+}
+
+.header {
+    display        : flex;
+    padding        : 12px 42px;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: calc(100% - 120px);
+    align-items: flex-end;
+}
+
+.header-text {
+    width: 100%;
+    text-align: center;
+    color        : #1890ff;
+    font-weight  : bold;
+    font-size    : 24px;
+    margin-bottom: 0;
+}
+
+.tabs {
+    display         : flex;
+    overflow-x      : auto;
+    width           : 100%;
+    background-color: #1890ff;
+}
+
+.tab {
+    cursor : pointer;
+    display: inline-block;
+    color  : white;
+    padding: 6px 24px;
+}
+
+.activeTab {
+    background-color: white;
+    color           : black;
+    font-weight     : bold;
+}
+
+.ant-table-wrapper, .ant-form {
+    background-color: white;
+    box-shadow      : 2px 4px 8px lightgray;
+}
+
+.user-table .ant-table-column-title {
+    text-align: center;
+}
+
+.user-table .ant-table-cell {
+    text-align: center;
+}
+
+.user-table td {
+    text-align: center;
+}
+
+.ant-table-tbody>tr.ant-table-row-level-0:hover>td {
+    background-color: #dfdfdf;
+}
+
+.row-input {
+    border-color: #1890ff;
+}
+
+.ant-pagination {
+    padding-left: 42px;
+}
+
+.insert {
+    position: fixed;
+    top     : 186px;
+    right   : 84px;
+    z-index : 100;
+}
+
+::-webkit-scrollbar {
+    width           : 5px;
+    height          : 10px;
+    background-color: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(197, 188, 188);
+}
